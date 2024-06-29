@@ -36,7 +36,7 @@ body {
 .header {
   padding: var(--large);
   background-color: var(--primary-color);
-  width: 100%;
+  max-width: 100%;
 }
 
 .header-link-wrapper {
