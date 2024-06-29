@@ -1,5 +1,23 @@
+body {
+  padding: 20px 20px;
+  margin: 0px;
+}
+
 .header {
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: blue;
-  height: 20px;
   width: 100%;
+}
+
+.header > a {
+  text-transform: capitalize;
+  padding: 3px;
+}
+
+:hover.header > a {
+  background-color: gray;
+  color: black;
 }
