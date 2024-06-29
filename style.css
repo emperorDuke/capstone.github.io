@@ -40,12 +40,14 @@ body {
 }
 
 .header-link-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
 
 .header-link-wrapper a {
   color: white;
+  margin-left: var(--small);
   text-transform: capitalize;
   padding: var(--small);
   font-size: var(--font-size-base);
