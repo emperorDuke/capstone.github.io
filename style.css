@@ -1,3 +1,7 @@
+:root {
+  --font-size: 5rem;
+}
+
 body {
   padding: 20px 20px;
   margin: 0px;
@@ -12,12 +16,13 @@ body {
   width: 100%;
 }
 
-.header > a {
+.header a {
   text-transform: capitalize;
-  padding: 3px;
+  padding: 6px;
+  font-size: var(--font-size);
 }
 
-:hover.header > a {
+:hover.header a {
   background-color: gray;
   color: black;
 }
