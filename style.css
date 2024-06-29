@@ -4,6 +4,7 @@
   --font-size-xl: 20px;
   --small: 12px;
   --large: 24px;
+  --primary-color: #434a42
 }
 
 .container {
@@ -36,7 +37,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: blue;
+  background-color: var(--primary-color);
   width: 100%;
 }
 
