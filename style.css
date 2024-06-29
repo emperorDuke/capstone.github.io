@@ -1,5 +1,5 @@
 :root {
-  --font-size: 5rem;
+  --font-size: 9em;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  padding: 6px;
+  padding: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,13 +16,13 @@ body {
   width: 100%;
 }
 
-.header a {
+.header-nav-wrapper {
   text-transform: capitalize;
-  padding: 6px;
+  padding: 3rem;
   font-size: var(--font-size);
 }
 
-:hover.header a {
+.header-nav-wrapper:hover {
   background-color: gray;
   color: black;
 }
