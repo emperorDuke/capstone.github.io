@@ -35,20 +35,25 @@ body {
 
 .header {
   padding: var(--large);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   background-color: var(--primary-color);
   width: 100%;
 }
 
-.header a {
+.header-link-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-link-wrapper a {
+  color: white;
   text-transform: capitalize;
   padding: var(--small);
   font-size: var(--font-size-base);
 }
 
-.header a:hover {
+.header-link-wrapper a:hover {
   background-color: gray;
   color: black;
 }
